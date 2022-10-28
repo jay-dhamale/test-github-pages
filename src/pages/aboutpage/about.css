@@ -1,0 +1,64 @@
+.about-me-main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 26px 36px;
+  background-color: #f3f3f5;
+}
+.about-me-img {
+  width: 276px;
+  height: 278px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.about-me-head {
+  font-size: 28px;
+  font-family: "palatino linotype", serif;
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 30px;
+}
+.about-me-paragraph {
+  font-size: 16px;
+  font-family: "palatino linotype", serif;
+  color: #191919;
+  width: 660px;
+  padding: 18px;
+  letter-spacing: normal;
+  line-height: 1.6em;
+  text-align: center;
+
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 600px) {
+  .about-me-main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .about-me-img {
+    width: 70%;
+    height: auto;
+    margin-top: 10px;
+  }
+  .about-me-head {
+    font-size: 24px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .about-me-paragraph {
+    font-size: 18px;
+    text-align: center;
+    padding: 0px;
+    width: 95%;
+    font-family: "palatino linotype", serif;
+    color: #191919;
+    margin-bottom: 10px;
+  }
+}

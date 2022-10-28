@@ -1,0 +1,252 @@
+.shop-main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px 36px;
+  background-color: #f3f3f5;
+}
+.shop-head {
+  font-size: 28px;
+  font-family: "palatino linotype", serif;
+  color: #191919;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px;
+}
+.shop-cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto 6rem 2rem 6rem;
+}
+.shop-card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.shop-imgs-blk {
+  position: relative;
+}
+
+.shop-img-text {
+  width: auto;
+  font-family: "palatino linotype", serif;
+  background-color: #b4436c;
+  color: #fff;
+  position: absolute;
+  font-size: 14px;
+  padding: 2px 12px;
+  right: 50%;
+  left: 0%;
+  bottom: 91.8%;
+  border: none;
+  text-align: center;
+}
+.shop-card-imgs {
+  position: relative;
+  object-fit: cover;
+  width: 310px;
+  height: 310px;
+  align-items: center;
+}
+.hover-btn {
+  bottom: 0%;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  text-align: center;
+  position: absolute;
+  font-family: "palatino linotype", serif;
+  font-size: 16px;
+  width: 310px;
+  height: 44px;
+  background-color: #b4436c;
+  border: none;
+  border-radius: 0px;
+}
+.hover-btn:focus {
+  border: none;
+  box-shadow: none;
+  background-color: #b4436c;
+}
+.shop-card-head {
+  font-size: 14px;
+  font-family: "palatino linotype", serif;
+  color: #191919;
+  padding: 8px 0 0;
+  text-align: center;
+}
+.shop-card-price {
+  font-size: 12px;
+  font-family: "palatino linotype", serif;
+  color: #191919;
+  padding: 8px 0 0;
+  text-align: center;
+}
+.shop-card-btn {
+  width: 310px;
+  color: #fff;
+  margin-top: 10px;
+  background-color: #b4436c;
+  font-size: 14px;
+  font-family: "palatino linotype", serif;
+  height: 36px;
+  border: none;
+  margin-bottom: 20px;
+}
+.modal-main-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1400px;
+  height: 500px;
+  align-items: center;
+
+  position: fixed;
+}
+.modal-content {
+  display: flex;
+  border-radius: 0px;
+  justify-content: center;
+}
+.modal-imges {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.product-heading {
+  font-size: 18px;
+  font-family: "palatino linotype", serif;
+  margin: 10px;
+}
+.product-info {
+  font-size: 14px;
+  font-family: "palatino linotype", serif;
+  margin: 10px;
+}
+.modal-close-btn {
+  background-color: #b4436c;
+  width: 150px;
+  border: none;
+  border-radius: 0px;
+}
+@media screen and (max-width: 600px) {
+  .shop-main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+  }
+  .shop-head {
+    font-size: 24px;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  .shop-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  .shop-card {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  .shop-imgs-blk {
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  .shop-img-text {
+    font-size: 18px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 94%;
+  }
+  .shop-card-imgs {
+    padding: 0px;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+  }
+
+  .shop-card-head {
+    display: none;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin-top: 10px;
+    font-size: 18px;
+
+    align-items: center;
+  }
+  .shop-card-price {
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+
+    align-items: center;
+  }
+  .shop-card-btn {
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .hover-btn {
+    width: 100%;
+    height: auto;
+    outline: none;
+    position: absolute;
+    bottom: -2.5%;
+  }
+  .hover-btn:focus {
+    border: none;
+    box-shadow: none;
+  }
+  .modal-main-block {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  .modal-imges {
+    width: 100%;
+    height: auto;
+  }
+  .product-heading {
+    font-size: 14px;
+    width: 100%;
+  }
+  .modal-col {
+    width: 100%;
+    object-fit: cover;
+  }
+  .modal-close-btn {
+    width: 150px;
+    height: auto;
+  }
+}

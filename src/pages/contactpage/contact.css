@@ -1,0 +1,251 @@
+.contact-main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 36px;
+  background-color: #f3f3f5;
+}
+.contact-top-blk {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.contact-left-side-block {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.contact-head {
+  font-size: 28px;
+  font-family: "palatino linotype", serif;
+  color: #191919;
+
+  text-transform: uppercase;
+  padding: 30px;
+}
+.contact-paragraph {
+  line-height: 1.6em;
+  font-size: 16px;
+  letter-spacing: normal;
+  font-family: "palatino linotype", serif;
+  padding: 30px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.left-side-form {
+  display: flex;
+  flex-direction: column;
+}
+.form-inputs {
+  width: 257px;
+  margin: 10px;
+  height: 33px;
+}
+.contact-right-side-block {
+  display: flex;
+  flex-direction: column;
+}
+.form-textarea {
+  margin: 10px;
+  width: 257px;
+  height: 85px;
+  padding: 12px 10px 3px 16px;
+}
+.form-submit-btn {
+  width: 150px;
+  margin-left: 26rem;
+  height: 33px;
+  border: none;
+  background-color: #f5a9d3;
+  font-size: 18px;
+  font-family: "palatino linotype", serif;
+  color: #191919;
+  text-align: center;
+}
+.right-side-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-info-row {
+  padding: 24px;
+}
+.right-side-head {
+  font-size: 16px;
+  font-family: "palatino linotype", serif;
+  color: #191919;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.contact-info {
+  font-size: 14px;
+  font-family: "palatino linotype", serif;
+  color: #191919;
+  width: 300px;
+}
+.google-map-location {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+.contact-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  padding: 10px;
+  background-color: #b4436c;
+  color: #fff;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.whats-links {
+  text-decoration: none;
+  list-style: none;
+}
+.connect-link {
+  font-size: 18px;
+  font-family: "palatino linotype", serif;
+}
+.whats-up-btn {
+  width: 24px;
+  height: 24px;
+  margin: 10px;
+}
+@media screen and (max-width: 600px) {
+  .contact-main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+  }
+  .contact-top-blk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .contact-left-side-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .contact-head {
+    font-size: 24px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .contact-paragraph {
+    font-size: 18px;
+    width: 100%;
+    height: auto;
+  }
+  .contact-form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: auto;
+  }
+  .left-side-form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .form-inputs {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+  }
+  .contact-right-side-block {
+    width: 95%;
+
+    height: auto;
+  }
+  .form-textarea {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+    width: 100%;
+
+    height: auto;
+    margin: 0px;
+  }
+  .form-submit-btn {
+    font-size: 24px;
+    width: 95%;
+    height: 44px;
+    padding: 0px;
+    margin: 20px;
+  }
+  .right-side-form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: auto;
+  }
+  .contact-info-row {
+    width: 100%;
+    height: auto;
+  }
+  .right-side-head {
+    font-size: 24px;
+    width: 100%;
+    height: auto;
+  }
+  .contact-info {
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+  }
+  .google-map-location {
+    display: flex;
+    width: 100%;
+
+    margin-bottom: 30px;
+  }
+  .contact-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+  }
+  .connect-link {
+    font-size: 22px;
+  }
+  .whats-links {
+    width: auto;
+  }
+}

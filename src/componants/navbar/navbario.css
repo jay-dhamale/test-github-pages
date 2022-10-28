@@ -1,0 +1,156 @@
+.nav-logo {
+  font-size: 28px;
+  letter-spacing: normal;
+  margin-left: 7rem;
+  font-family: "palatino linotype", serif;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: #191919;
+  background: transparent;
+}
+.nav-logo:hover {
+  background-color: transparent;
+  color: #b4436c;
+}
+.comp-logo {
+  object-fit: cover;
+  height: 44px;
+}
+.nav-con-1 {
+  width: 100%;
+  height: auto;
+  background-color: #ffd6e9;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.actived-link {
+  background-color: transparent;
+  color: #b4436c;
+}
+.links {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  /* identical to box height, or 150% */
+  margin: 1.5rem;
+  /* Gray/500 */
+  background-color: transparent;
+  border: none;
+  color: #191919;
+
+  /* Inside auto layout */
+}
+.links:hover {
+  background-color: transparent;
+  color: #b4436c;
+}
+
+.navbar-right-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+}
+.navbar-search-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: none;
+  width: 250px;
+  height: 36px;
+  background: #fff;
+}
+.search-icon {
+  width: 14px;
+  height: 14px;
+  margin-left: 10px;
+}
+.input-search {
+  border: none;
+  width: 80%;
+  outline: none;
+}
+.login-button-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 6px 7px;
+  width: 130px;
+  height: 36;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+.user-icon {
+  width: 24px;
+  height: 24px;
+  margin: 10px;
+}
+.login-button-text {
+  font-size: 16px;
+  font-family: "palatino linotype", serif;
+  color: #191919;
+  padding: 0 5px;
+}
+@media screen and (max-width: 768px) {
+  .nav-logo {
+    align-items: center;
+    margin: 0px;
+    font-size: 28px;
+  }
+  .links,
+  .actived-link,
+  .links:hover {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-size: 18px;
+    padding: 1rem;
+  }
+  .navbar-right-side {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar-search-box {
+    width: 100%;
+    height: 44px;
+    margin-top: 20px;
+  }
+  .search-icon {
+    width: auto;
+  }
+  .input-search {
+    font-size: 18px;
+  }
+  .login-button-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+  }
+  .user-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .login-button-text {
+    font-size: 16px;
+  }
+  .comp-logo {
+    object-fit: cover;
+    height: 40px;
+  }
+}
